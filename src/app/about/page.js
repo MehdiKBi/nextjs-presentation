@@ -1,5 +1,12 @@
+"use client"
+
+import { usePathname } from "next/navigation"
+
 
 
 export default function About(){
-    return <h1>About me!</h1>
+    const pathName = usePathname()
+    return <h1>{pathName}</h1>
 }
+
+
