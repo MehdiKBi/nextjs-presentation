@@ -1,5 +1,4 @@
 
-
-export default function privat(){
-    return <h1>privat 🫤</h1>
+export default function Lib(){
+    return <h1>you can not find me</h1>
 }
